@@ -4,6 +4,7 @@ START_TIME=$(date +%s)
 
 
 #CORE=2
+# Change variables below to reencode any datasets that is currently using 'latin-1' instead of 'utf-8' 
 INIT_FOLDER=1  
 FIN_FOLDER=31  
 
@@ -25,4 +26,4 @@ END_TIME=$(date +%s)
 TIME_ELAPSED=$(($END_TIME - $START_TIME))
 MIN_ELAPSED=$(( ($TIME_ELAPSED / 60) ))
 SEC_ELAPSED=$(( ($TIME_ELAPSED % 60) ))
-echo "This Concatenating Task took $MIN_ELAPSED minutes and $SEC_ELAPSED seconds to complete" 
+echo "This Reencoding Task took $MIN_ELAPSED minutes and $SEC_ELAPSED seconds to complete" 

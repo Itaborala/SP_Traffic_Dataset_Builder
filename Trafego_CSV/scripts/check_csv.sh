@@ -25,4 +25,4 @@ END_TIME=$(date +%s)
 TIME_ELAPSED=$(($END_TIME - $START_TIME))
 MIN_ELAPSED=$(( ($TIME_ELAPSED / 60) ))
 SEC_ELAPSED=$(( ($TIME_ELAPSED % 60) ))
-echo "This Concatenating Task took $MIN_ELAPSED minutes and $SEC_ELAPSED seconds to complete" 
+echo "This task took $MIN_ELAPSED minutes and $SEC_ELAPSED seconds to complete" 
