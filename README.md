@@ -1,4 +1,9 @@
 # SP_Traffic_Dataset_Builder
+
+
+[![DOI](https://zenodo.org/badge/411011461.svg)](https://zenodo.org/badge/latestdoi/411011461)
+
+
 Scripts e Códigos-fonte utilizados descompactar, estruturar e anonimizar um dataset com dados de tráfego provenientes dos radares da Secretaria Municipal de Transportes de São Paulo no ano de 2018, disponibilizados pela mesma.
 
 Este repositório é parte do material utilizado na tese de Doutorado de [Olímpio Mendes de Barros](https://orcid.org/0000-0002-0912-6502), no Departamento de Transportes (PTR) da Escola Politécnica da Universidade de São Paulo.
