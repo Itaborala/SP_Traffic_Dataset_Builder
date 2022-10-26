@@ -4,7 +4,7 @@ echo "Starting To process Lot L3 Month $1"
 
 sleep 2
 
-echo "Unzipping..."
+echo "Unzipping TXT..."
 
 ./unzip2.sh $1
 

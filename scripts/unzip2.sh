@@ -2,7 +2,7 @@
 
 START_TIME=$(date +%s)
 
-
+#Multi-thread unzipping
 #CORE=2
 INIT_FILE=1  #$(($CORE*4))
 FIN_FILE=31  #$(($CORE*4 +3))

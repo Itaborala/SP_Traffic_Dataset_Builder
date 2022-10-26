@@ -15,7 +15,7 @@ do
 	then
 		echo "Concatenating ../$1/$FOLDER"
 		./create_csv.sh $FOLDER $1
-		./test_csv.py ../$1c/$FOLDER.csv
+		./test_ds.py ../$1c/$FOLDER.csv
 	fi
 done
 
